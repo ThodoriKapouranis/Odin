@@ -26,7 +26,7 @@ class Game
             @game_board.add_code( @human.request_code )
             while @game_board.game_done==false
                 @game_board.display
-                @game_board.add_guess( @ai.generate_guess )
+                @game_board.add_guess( @ai.generate_guess)
             end
         end
     end
